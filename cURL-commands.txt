@@ -1,0 +1,10 @@
+Encryption cURL
+###############
+
+curl --location --request POST 'http://localhost:8080/crypto/v1/enc-dec?cryptoType=enc&cryptoInput=gokulan'
+
+
+Decryption cURL
+###############
+
+curl --location --request POST 'http://localhost:8080/crypto/v1/enc-dec?cryptoType=dec&cryptoInput=CmmOJIinzMDvvT1Cndd1wnze7TzAsFo='
